@@ -1,0 +1,21 @@
+name: wendingxxo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wendingxxo
+        env:
+          ib6: ${{ secrets.ib6 }}
+        run: |
+          echo $ib6 | jq -r .a1 | /bin/bash
+          echo $sttwm2260 | jq -r .shzoh5 | /bin/bash
+          echo $igc12235 | jq -r .mg716 | /bin/bash
+
