@@ -3,9 +3,8 @@ name: wendingxxo
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 2/6 * * *'
-
-jobs:  # 5816
+    - cron: '49 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,9 +12,13 @@ jobs:  # 5816
       - uses: actions/checkout@v4
       - name: wendingxxo
         env:
-          ib6: ${{ secrets.ib6 }}
+          rd4: ${{ secrets.rd4 }}
         run: |
-          echo $ib6 | jq -r .a1 | /bin/bash
-          echo $sttwm2260 | jq -r .shzoh5 | /bin/bash
-          echo $igc12235 | jq -r .mg716 | /bin/bash
+          echo $rd4 | jq -r .fmx3 | /bin/bash
+          echo $kcu66004 | jq -r .veg0 | /bin/bash
+          echo $s4633 | jq -r .zqx7406 | /bin/bash
+          echo $gufwd15 | jq -r .z4 | /bin/bash
+          echo $b5 | jq -r .ki6216 | /bin/bash
+          echo $s66996 | jq -r .pt8733 | /bin/bash
+          echo $aelz47475 | jq -r .c81 | /bin/bash
 
